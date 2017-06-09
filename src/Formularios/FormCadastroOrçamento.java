@@ -7,7 +7,6 @@ package Formularios;
 
 import ConexaoDB.DadosCliente;
 import classesbasicas.Cliente;
-import classesbasicas.Servico;
 import java.util.ArrayList;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
@@ -109,6 +108,11 @@ public class FormCadastroOrçamento extends javax.swing.JFrame {
         });
 
         btnFinalizar.setText("Finalizar");
+        btnFinalizar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFinalizarActionPerformed(evt);
+            }
+        });
 
         listviewOrçamentoServSelec.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -199,6 +203,10 @@ public class FormCadastroOrçamento extends javax.swing.JFrame {
     private void txtDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDataActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtDataActionPerformed
+
+    private void btnFinalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFinalizarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFinalizarActionPerformed
 
     /**
      * @param args the command line arguments

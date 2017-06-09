@@ -5,7 +5,6 @@
  */
 package Formularios;
 
-import ConexaoDB.DadosCliente;
 import classesbasicas.Cliente;
 import validacaodecampos.SomenteLetras;
 import validacaodecampos.SomenteNumeros;

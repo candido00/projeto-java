@@ -23,7 +23,7 @@ public class NegocioCliente {
             throw new Exception("Informar o nome do cliente");
         }
         if (cliente.getNome().length() < 5) {
-            throw new Exception("Nome muito pequeno");
+            throw new Exception("Nome muito curto");
         }
         if (cliente.getNome().length() > 100) {
             throw new Exception("Insira no máximo 100 caracteres!");
